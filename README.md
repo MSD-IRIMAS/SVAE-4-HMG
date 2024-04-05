@@ -38,15 +38,15 @@ Training on all the dataset:
 
 ```python3 train_vae.py --generative-model VAE --dataset HumanAct12 --output-directory results/ --runs 5 --split all --weight-rec 1.0 --weight-kl 1.0 --n-epochs 2000```
 <br>
-To train on the train test cross subject splits proposed in the paper, use the train_test value for the ```--split``` argument.
+To train on the train test cross subject splits proposed in the paper, use the "train_test" value for the ```--split``` argument.
 
-### For VAE
+### For SVAE
 
 Training on all the dataset:
 
 ```python3 train_vae.py --generative-model SVAE --dataset HumanAct12 --output-directory results/ --runs 5 --split all --weight-rec 0.4995 --weight-kl 0.001 --weight-cls 0.4995 --n-epochs 2000```
 <br>
-To train on the train test cross subject splits proposed in the paper, use the train_test value for the ```--split``` argument.
+To train on the train test cross subject splits proposed in the paper, use the "train_test" value for the ```--split``` argument.
 
 ## Generating with Pre-trained Generators
 
