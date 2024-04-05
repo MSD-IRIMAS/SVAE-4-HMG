@@ -1,3 +1,8 @@
+"""
+This code was taken from the open source repository provided on github:
+https://github.com/Pelk89/TF_Custom_Training_Callbacks
+"""
+
 import tensorflow as tf
 import numpy as np
 
